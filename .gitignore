@@ -1,1 +1,23 @@
 .vercel
+node_modules
+.DS_Store
+.vscode
+.env
+# Ignore build artifacts
+dist
+# Ignore logs
+logs
+
+# Ignore temporary files
+*.tmp
+# Ignore coverage reports
+coverage
+# Ignore dependency directories
+jspm_packages
+# Ignore package lock files
+package-lock.json
+# Ignore yarn lock files
+yarn.lock
+
+package-lock.json
+package.json
